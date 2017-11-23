@@ -44,16 +44,24 @@ for x in unique_candidates:
     for i in candidates:
         if i == x:
             candidate_votes = candidate_votes + 1
-            candidates_votes_list.append(candidate_votes)
             candidate_votes_percentage = round((candidate_votes / total_votes) * 100, 1)
     print (x + ": " + str(candidate_votes_percentage) + "% (" + str(candidate_votes) + ")")
+    candidates_votes_list.append(candidate_votes)
     candidate_votes = 0
+
+#create dictionary of candidates and number of vote
+candidate_dict = {}
+for i in range(len(unique_candidates)):
+    candidate_dict[unique_candidates[i]] = candidates_votes_list[i]
+
+#get winner
+winner = max(candidate_dict, key=candidate_dict.get)
 
 #print splitter line
 print("---------------------------")
 
 #Calculating winner
-print("Winner: " + max(candidates))
+print("Winner: " + winner)
 print("---------------------------")
 
 #writes to textfile
@@ -73,5 +81,5 @@ for x in unique_candidates:
     summaryfile.write(x + ": " + str(candidate_votes_percentage) + "% (" + str(candidate_votes) + ")\n")
     candidate_votes = 0
 summaryfile.write("---------------------------\n")
-summaryfile.write("Winner: " + max(candidates) + "\n")
+summaryfile.write("Winner: " + winner + "\n")
 summaryfile.write("---------------------------\n")
