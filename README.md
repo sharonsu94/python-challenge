@@ -20,8 +20,6 @@ Each of these challenges encompasses a real-world situation where your newfound 
 
 ## Option 1: PyBank
 
-![Revenue](Images/revenue-per-lead.jpg)
-
 In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will be given two sets of revenue data (`budget_data_1.csv` and `budget_data_2.csv`). Each dataset is composed of two columns: `Date` and `Revenue`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
 
 Your task is to create a Python script that analyzes the records to calculate each of the following:
@@ -51,8 +49,6 @@ Greatest Decrease in Revenue: Aug-12 ($-652794)
 Your final script must be able to handle any such similarly structured dataset in the future (your boss is going to give you more of these -- so your script has to work for the ones to come). In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## Option 2: PyPoll
-
-![Vote-Counting](Images/Vote_counting.jpg)
 
 In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
@@ -87,8 +83,6 @@ Winner: Gomez
 Your final script must be able to handle any such similarly-structured dataset in the future (i.e you have zero intentions of living in this hillbilly town -- so your script needs to work without massive re-writes). In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## Option 3: PyBoss
-
-![Boss](Images/boss.jpg)
 
 In this challenge, you get to be the _boss_. You oversee hundreds of employees across the country developing Tuna 2.0, a world-changing snack food based on canned tuna fish. Alas, being the boss isn't all fun, games, and self-adulation. The company recently decided to purchase a new HR system, and unfortunately for you, the new system requires employee records be stored completely differently.
 
@@ -127,8 +121,6 @@ Emp ID,First Name,Last Name,DOB,SSN,State
 * Special Hint: You may find this link to be helpful—[Python Dictionary for State Abbreviations](https://gist.github.com/afhaque/29f0f4f37463c447770517a6c17d08f5).
 
 ## Option 4: PyParagraph
-
-![Language](Images/language.jpg)
 
 In this challenge, you get to play the role of chief linguist at a local learning academy. As chief linguist, you are responsible for assessing the complexity of various passages of writing, ranging from the sophomoric Twilight novel to the nauseatingly high-minded research article. Having read so many passages, you've since come up with a fairly simple set of metrics for assessing complexity.
 
